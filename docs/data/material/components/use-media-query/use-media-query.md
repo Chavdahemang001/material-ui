@@ -210,7 +210,7 @@ You can reproduce the same behavior with a `useWidth` hook:
 - `options.noSsr` (_bool_ [optional]): Defaults to `false`.
   To perform the server-side hydration, the hook needs to render twice.
   A first time with `defaultMatches`, the value of the server, and a second time with the resolved value.
-  This double pass rendering cycle comes with a drawback: it's slower.
+  This double pass rendering cycle comes with a drawback: iter.
   You can set this option to `true` if you use the returned value **only** client-side.
 - `options.ssrMatchMedia` (_func_ [optional]): You can provide your own implementation of _matchMedia_, it's used when rendering server-side.
 
